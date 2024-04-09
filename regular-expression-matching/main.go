@@ -9,6 +9,8 @@ func main() {
 }
 
 func isMatch(s string, p string) bool {
+
+	//return true if only s is empty
     if p == "" {
         return s == ""
     }

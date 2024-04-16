@@ -14,6 +14,7 @@ func longestCommonPrefix(strs []string) string {
         return ""
     }
 
+	//DETERMINE SHORTEST STRING
     shortest := strs[0]
     for _, str := range strs {
         if len(str) < len(shortest) {

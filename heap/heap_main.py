@@ -1,5 +1,5 @@
 from max_heap import MaxHeap
-
+print("--Max Heap--")
 heap = MaxHeap()
 
 heap.insert(5)
@@ -16,3 +16,7 @@ print("Extract the max", heap.extract_max())
 
 #print heap after extraction
 print("After extraction, heap: ", heap)
+print("--Max Heap--\n")
+
+print("--Min Heap--")
+print("--Min Heap--")

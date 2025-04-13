@@ -40,7 +40,7 @@ class MaxHeap:
         
         if left < len(self.heap) and self.heap[left] > self.heap[largest]:
             largest = left
-        if right < len(self.heap) and self.heap[left] > self.heap[largest]:
+        if right < len(self.heap) and self.heap[right] > self.heap[largest]:
             largest = right
         
         if largest != i:
